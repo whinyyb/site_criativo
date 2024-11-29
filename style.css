@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lora', sans-serif;
+}
+.cabecalho {
+    background-color: rgb(132, 30, 201);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.nome-titulo{
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.euzinha-imagem{
+    width: 23%;
+}
+
+#euzinha{
+    background-image: linear-gradient(rgb(132, 30, 201),#d82bd8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.euzinha-div-conteudo{
+    width: 35%;
+}
+
+
+.euzinha-titulo{
+    padding: 24px 0;
+}
+
+#redes{
+    padding: 24px 0;
+    background-color: #d82bd8;
+    color: white;
+}
+
+
+.redes-imagem{
+    width: 120px;
+}
+
+.redes-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.redes-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.redes-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.redes-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 5px;
+   
+}
